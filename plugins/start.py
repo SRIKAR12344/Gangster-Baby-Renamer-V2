@@ -16,7 +16,7 @@ from helper.date import check_expi
 import os
 
 CHANNEL = os.environ.get('CHANNEL', "-1001878622379")
-STRING = os.environ.get("STRING", "")
+STRING = os.environ.get("STRING", "BQCNvT0XFUwp4t_U2r9l25owf2k545sNPX0mI953DxgukomhZ7CnSzdjKMLPEGLOuaZghh45jdKw3OkSlG3SesPWoz_h-QQnFDcB3QzdGsGK8lph5V3zaT_8kBb2t6KYDat0Oy8EnO-2_Nd5AtalcpC50dP9FTfHJlrHCppAkMvN5mp_QLb42YzJjBB6jHNA4OCaV6sk5Xp-uoJmAcOqbf_mz8YNeFkVVuI9KTLUNz9gtcBnfKKEXxCSlNbMiVaJm47p7qOTcyDPTdCQ4KoX9FQx9o9QLdi4WJAlq-o0q2jA5guMvTbIytOhCB6xUdgOjBmvkXcrNQSppzjkYMU5HLI0AAAAAUNpEfQA")
 ADMIN = int(os.environ.get("ADMIN", "5583440761"))
 bot_username = os.environ.get("BOT_USERNAME","GangsterBaby_renamer_BOT")
 log_channel = int(os.environ.get("LOG_CHANNEL", "-1001921250376"))
@@ -50,11 +50,11 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                      [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                      [[InlineKeyboardButton("🔺 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🔺", url="https://t.me/LazyDeveloper")],
+                                      [InlineKeyboardButton("🦋 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗚𝗥𝗢𝗨𝗣 🦋", url="https://youtube.com/@LazyDeveloperr")],
+                                      [InlineKeyboardButton("😍 𝗞𝗗𝗥𝗔𝗠𝗔𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 😍", url='https://t.me/LazyPrincessSupport'),
+                                      InlineKeyboardButton("🥳 𝗠𝗢𝗩𝗜𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🥳", url='https://t.me/real_MoviesAdda2')],
+                                      [InlineKeyboardButton("☕ 𝗕𝗔𝗖𝗞𝗨𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
                                       ]))
         return
     if id:
@@ -64,11 +64,11 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                              [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                             InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                             [[InlineKeyboardButton("🔺 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🔺", url="https://t.me/LazyDeveloper")],
+                                              [InlineKeyboardButton("🦋 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗚𝗥𝗢𝗨𝗣 🦋", url="https://youtube.com/@LazyDeveloperr")],
+                                              [InlineKeyboardButton("😍 𝗞𝗗𝗥𝗔𝗠𝗔𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 😍", url='https://t.me/LazyPrincessSupport'),
+                                             InlineKeyboardButton("🥳 𝗠𝗢𝗩𝗜𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 🥳", url='https://t.me/real_MoviesAdda2')],
+                                             [InlineKeyboardButton("☕ 𝗕𝗔𝗖𝗞𝗨𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
                                           ]))
             except:
                 return
